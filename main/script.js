@@ -47,7 +47,7 @@ function setBgGreet() {
         document.body.style.color = 'antiquewhite';
     } else {
         // Night
-        document.body.style.backgroundImage = "url('../main/img/kazbeginight.jpg')";
+        document.body.style.backgroundImage = "url('../main/img/kazbeginight.jpg)";
         greeting.textContent = 'good night,';
         document.body.style.color = 'antiquewhite';
     }
