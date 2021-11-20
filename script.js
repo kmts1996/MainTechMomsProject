@@ -32,7 +32,7 @@ function setBgGreet() {
 
     if (hours >= 5 &&hours < 12) {
         // Morning
-        document.body.style.backgroundImage = "url('/main/img/kazbegimorning.jpg')";
+        document.body.style.backgroundImage = "url('https://github.com/kmts1996/MainTechMomsProject/blob/master/main/img/kazbegiafternoon.jpg')";
         greeting.textContent = 'good morning,';
         document.body.style.color = 'black';
     } else if (hours >= 12 &&hours < 18) {
@@ -47,7 +47,7 @@ function setBgGreet() {
         document.body.style.color = 'antiquewhite';
     } else {
         // Night
-        document.body.style.backgroundImage = "url('/main/img/kazbeginight.jpg')";
+        document.body.style.backgroundImage = "url('https://raw.githubusercontent.com/kmts1996/MainTechMomsProject/master/main/img/kazbeginight.jpg')";
         greeting.textContent = 'good night,';
         document.body.style.color = 'antiquewhite';
     }
