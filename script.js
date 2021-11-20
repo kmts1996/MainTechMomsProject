@@ -32,17 +32,17 @@ function setBgGreet() {
 
     if (hours >= 5 &&hours < 12) {
         // Morning
-        document.body.style.backgroundImage = "url('https://i.ibb.co/2nKXxF2/kazbegimorning.jpg')";
+        document.body.style.backgroundImage = "url('https://i.ibb.co/bWdpT6h/kazbegimorning.jpg')";
         greeting.textContent = 'good morning,';
         document.body.style.color = 'black';
     } else if (hours >= 12 &&hours < 18) {
         // Afternoon
-        document.body.style.backgroundImage = "url('https://i.ibb.co/SJJWKmq/kazbegiafternoon.jpg')";
+        document.body.style.backgroundImage = "url('https://i.ibb.co/b77qrvp/kazbegiafternoon.jpg')";
         greeting.textContent = 'good afternoon,';
         document.body.style.color = 'black';
     } else if (hours >= 18 &&hours < 22) {
         // Evening
-        document.body.style.backgroundImage = "url('https://i.ibb.co/qgTRQpw/kazbegievening.jpg')";
+        document.body.style.backgroundImage = "url('https://i.ibb.co/ykH8jqJ/kazbegievening.jpg')";
         greeting.textContent = 'good evening,';
         document.body.style.color = 'antiquewhite';
     } else {
