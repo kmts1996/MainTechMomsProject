@@ -29,7 +29,6 @@ function addZero(n) {
 function setBgGreet() {
     let today = new Date(),
         hours = today.getHours();
-
     if (hours >= 5 &&hours < 12) {
         // Morning
         document.body.style.backgroundImage = "url('https://i.ibb.co/bWdpT6h/kazbegimorning.jpg')";
@@ -47,7 +46,7 @@ function setBgGreet() {
         document.body.style.color = 'antiquewhite';
     } else {
         // Night
-        document.body.style.backgroundImage = "url('https://i.ibb.co/5s59kPG/kazbeginight.jpg')";
+        document.body.style.backgroundImage = "url('https://i.ibb.co/9yqvh7c/kazbeginight.jpg')";
         greeting.textContent = 'good night,';
         document.body.style.color = 'antiquewhite';
     }
